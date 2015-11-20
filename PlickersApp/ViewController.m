@@ -99,7 +99,7 @@
 
 -(int)getCorrectAnswer:(int)index {
     
-    int correctAnswer = 0;
+    int correctAnswer = -1;
     
     NSArray *choices = [[[dataSource objectAtIndex:index]valueForKey:@"question"]valueForKey:@"choices"];
     

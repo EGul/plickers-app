@@ -92,7 +92,7 @@
 
 -(int)getCorrectAnswer {
     
-    int correctAnswer = 0;
+    int correctAnswer = -1;
     
     for (int i = 0; i < self.choices.count; i++) {
         if ([[[self.choices objectAtIndex:i]valueForKey:@"correct"]boolValue] == true) {
