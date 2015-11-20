@@ -12,6 +12,7 @@
     
 }
 
+-(void)setup;
 -(void)setImageFromURL:(NSURL *)url block:(void (^)(NSError *))block;
 
 @end

@@ -78,6 +78,8 @@
     questionTextView.userInteractionEnabled = false;
     questionTextView.text = [[self.dataSource valueForKey:@"question"]valueForKey:@"body"];
     
+    [resizeImageView setup];
+    
     choicesView.choices = [[self.dataSource valueForKey:@"question"]valueForKey:@"choices"];
     choicesView.responses = [self.dataSource valueForKey:@"responses"];
     [choicesView setup];
