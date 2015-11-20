@@ -1,0 +1,13 @@
+PODS:
+  - DateTools (1.7.0)
+  - Reachability (3.2)
+
+DEPENDENCIES:
+  - DateTools
+  - Reachability
+
+SPEC CHECKSUMS:
+  DateTools: 53288ee8b905fdc75897a1e6b5cc0144b14cba60
+  Reachability: 33e18b67625424e47b6cde6d202dce689ad7af96
+
+COCOAPODS: 0.39.0

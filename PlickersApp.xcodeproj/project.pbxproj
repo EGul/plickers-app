@@ -1,0 +1,648 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		562ABC89A70EB5BFD756BB0A /* libPods-PlickersApp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 14D5CACC7A3C11FA98C092A7 /* libPods-PlickersApp.a */; };
+		7605BD371BFDA97D0027C97A /* CardView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7605BD361BFDA97D0027C97A /* CardView.m */; };
+		7651683B1BFBD8E20011C909 /* SelectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7651683A1BFBD8E20011C909 /* SelectViewController.m */; };
+		7656A3881BFC0369001A40A3 /* ChoicesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7656A3871BFC0369001A40A3 /* ChoicesView.m */; };
+		765E67F51BFC28AB00E91458 /* ResizeImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 765E67F41BFC28AB00E91458 /* ResizeImageView.m */; };
+		76CA66341BFBCD3900E7F9FC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CA66331BFBCD3900E7F9FC /* main.m */; };
+		76CA66371BFBCD3900E7F9FC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CA66361BFBCD3900E7F9FC /* AppDelegate.m */; };
+		76CA663A1BFBCD3900E7F9FC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CA66391BFBCD3900E7F9FC /* ViewController.m */; };
+		76CA663D1BFBCD3900E7F9FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76CA663B1BFBCD3900E7F9FC /* Main.storyboard */; };
+		76CA663F1BFBCD3900E7F9FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76CA663E1BFBCD3900E7F9FC /* Assets.xcassets */; };
+		76CA66421BFBCD3900E7F9FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76CA66401BFBCD3900E7F9FC /* LaunchScreen.storyboard */; };
+		76CA664D1BFBCD3900E7F9FC /* PlickersAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CA664C1BFBCD3900E7F9FC /* PlickersAppTests.m */; };
+		76CA66581BFBCD3900E7F9FC /* PlickersAppUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CA66571BFBCD3900E7F9FC /* PlickersAppUITests.m */; };
+		76CA66671BFBCDB900E7F9FC /* PlickersAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 76CA66661BFBCDB900E7F9FC /* PlickersAPI.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76CA66491BFBCD3900E7F9FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76CA66271BFBCD3900E7F9FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76CA662E1BFBCD3900E7F9FC;
+			remoteInfo = PlickersApp;
+		};
+		76CA66541BFBCD3900E7F9FC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 76CA66271BFBCD3900E7F9FC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 76CA662E1BFBCD3900E7F9FC;
+			remoteInfo = PlickersApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		14D5CACC7A3C11FA98C092A7 /* libPods-PlickersApp.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-PlickersApp.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7605BD351BFDA97D0027C97A /* CardView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CardView.h; sourceTree = "<group>"; };
+		7605BD361BFDA97D0027C97A /* CardView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CardView.m; sourceTree = "<group>"; };
+		765168391BFBD8E20011C909 /* SelectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SelectViewController.h; sourceTree = "<group>"; };
+		7651683A1BFBD8E20011C909 /* SelectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SelectViewController.m; sourceTree = "<group>"; };
+		7656A3861BFC0369001A40A3 /* ChoicesView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChoicesView.h; sourceTree = "<group>"; };
+		7656A3871BFC0369001A40A3 /* ChoicesView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChoicesView.m; sourceTree = "<group>"; };
+		765E67F31BFC28AB00E91458 /* ResizeImageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ResizeImageView.h; sourceTree = "<group>"; };
+		765E67F41BFC28AB00E91458 /* ResizeImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ResizeImageView.m; sourceTree = "<group>"; };
+		76CA662F1BFBCD3900E7F9FC /* PlickersApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlickersApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		76CA66331BFBCD3900E7F9FC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		76CA66351BFBCD3900E7F9FC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		76CA66361BFBCD3900E7F9FC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		76CA66381BFBCD3900E7F9FC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		76CA66391BFBCD3900E7F9FC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		76CA663C1BFBCD3900E7F9FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		76CA663E1BFBCD3900E7F9FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		76CA66411BFBCD3900E7F9FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		76CA66431BFBCD3900E7F9FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76CA66481BFBCD3900E7F9FC /* PlickersAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlickersAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76CA664C1BFBCD3900E7F9FC /* PlickersAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlickersAppTests.m; sourceTree = "<group>"; };
+		76CA664E1BFBCD3900E7F9FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76CA66531BFBCD3900E7F9FC /* PlickersAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlickersAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		76CA66571BFBCD3900E7F9FC /* PlickersAppUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PlickersAppUITests.m; sourceTree = "<group>"; };
+		76CA66591BFBCD3900E7F9FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76CA66651BFBCDB900E7F9FC /* PlickersAPI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PlickersAPI.h; sourceTree = "<group>"; };
+		76CA66661BFBCDB900E7F9FC /* PlickersAPI.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PlickersAPI.m; sourceTree = "<group>"; };
+		D36194BB490D121163B25A48 /* Pods-PlickersApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlickersApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PlickersApp/Pods-PlickersApp.debug.xcconfig"; sourceTree = "<group>"; };
+		D81824C6854E39E9C6DE1DA7 /* Pods-PlickersApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PlickersApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-PlickersApp/Pods-PlickersApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		76CA662C1BFBCD3900E7F9FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				562ABC89A70EB5BFD756BB0A /* libPods-PlickersApp.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76CA66451BFBCD3900E7F9FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76CA66501BFBCD3900E7F9FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7605BD301BFDA66D0027C97A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				765E67F31BFC28AB00E91458 /* ResizeImageView.h */,
+				765E67F41BFC28AB00E91458 /* ResizeImageView.m */,
+				7656A3861BFC0369001A40A3 /* ChoicesView.h */,
+				7656A3871BFC0369001A40A3 /* ChoicesView.m */,
+				7605BD351BFDA97D0027C97A /* CardView.h */,
+				7605BD361BFDA97D0027C97A /* CardView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		7605BD311BFDA6730027C97A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				76CA66381BFBCD3900E7F9FC /* ViewController.h */,
+				76CA66391BFBCD3900E7F9FC /* ViewController.m */,
+				765168391BFBD8E20011C909 /* SelectViewController.h */,
+				7651683A1BFBD8E20011C909 /* SelectViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		76CA66261BFBCD3900E7F9FC = {
+			isa = PBXGroup;
+			children = (
+				76CA66311BFBCD3900E7F9FC /* PlickersApp */,
+				76CA664B1BFBCD3900E7F9FC /* PlickersAppTests */,
+				76CA66561BFBCD3900E7F9FC /* PlickersAppUITests */,
+				76CA66301BFBCD3900E7F9FC /* Products */,
+				929C2DF4E80D5D1A905972A0 /* Pods */,
+				C23D264B58659C4943A61F6A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		76CA66301BFBCD3900E7F9FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				76CA662F1BFBCD3900E7F9FC /* PlickersApp.app */,
+				76CA66481BFBCD3900E7F9FC /* PlickersAppTests.xctest */,
+				76CA66531BFBCD3900E7F9FC /* PlickersAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		76CA66311BFBCD3900E7F9FC /* PlickersApp */ = {
+			isa = PBXGroup;
+			children = (
+				7605BD301BFDA66D0027C97A /* Views */,
+				7605BD311BFDA6730027C97A /* Controllers */,
+				76CA66351BFBCD3900E7F9FC /* AppDelegate.h */,
+				76CA66361BFBCD3900E7F9FC /* AppDelegate.m */,
+				76CA66651BFBCDB900E7F9FC /* PlickersAPI.h */,
+				76CA66661BFBCDB900E7F9FC /* PlickersAPI.m */,
+				76CA663B1BFBCD3900E7F9FC /* Main.storyboard */,
+				76CA663E1BFBCD3900E7F9FC /* Assets.xcassets */,
+				76CA66401BFBCD3900E7F9FC /* LaunchScreen.storyboard */,
+				76CA66431BFBCD3900E7F9FC /* Info.plist */,
+				76CA66321BFBCD3900E7F9FC /* Supporting Files */,
+			);
+			path = PlickersApp;
+			sourceTree = "<group>";
+		};
+		76CA66321BFBCD3900E7F9FC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				76CA66331BFBCD3900E7F9FC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		76CA664B1BFBCD3900E7F9FC /* PlickersAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				76CA664C1BFBCD3900E7F9FC /* PlickersAppTests.m */,
+				76CA664E1BFBCD3900E7F9FC /* Info.plist */,
+			);
+			path = PlickersAppTests;
+			sourceTree = "<group>";
+		};
+		76CA66561BFBCD3900E7F9FC /* PlickersAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				76CA66571BFBCD3900E7F9FC /* PlickersAppUITests.m */,
+				76CA66591BFBCD3900E7F9FC /* Info.plist */,
+			);
+			path = PlickersAppUITests;
+			sourceTree = "<group>";
+		};
+		929C2DF4E80D5D1A905972A0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D36194BB490D121163B25A48 /* Pods-PlickersApp.debug.xcconfig */,
+				D81824C6854E39E9C6DE1DA7 /* Pods-PlickersApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C23D264B58659C4943A61F6A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14D5CACC7A3C11FA98C092A7 /* libPods-PlickersApp.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		76CA662E1BFBCD3900E7F9FC /* PlickersApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76CA665C1BFBCD3900E7F9FC /* Build configuration list for PBXNativeTarget "PlickersApp" */;
+			buildPhases = (
+				1F469DAB1F2C7D5571FD4E12 /* Check Pods Manifest.lock */,
+				76CA662B1BFBCD3900E7F9FC /* Sources */,
+				76CA662C1BFBCD3900E7F9FC /* Frameworks */,
+				76CA662D1BFBCD3900E7F9FC /* Resources */,
+				7DF2C512BA937FF983A46CA4 /* Embed Pods Frameworks */,
+				B2D57A59CBDF832A07D6F45C /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PlickersApp;
+			productName = PlickersApp;
+			productReference = 76CA662F1BFBCD3900E7F9FC /* PlickersApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		76CA66471BFBCD3900E7F9FC /* PlickersAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76CA665F1BFBCD3900E7F9FC /* Build configuration list for PBXNativeTarget "PlickersAppTests" */;
+			buildPhases = (
+				76CA66441BFBCD3900E7F9FC /* Sources */,
+				76CA66451BFBCD3900E7F9FC /* Frameworks */,
+				76CA66461BFBCD3900E7F9FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76CA664A1BFBCD3900E7F9FC /* PBXTargetDependency */,
+			);
+			name = PlickersAppTests;
+			productName = PlickersAppTests;
+			productReference = 76CA66481BFBCD3900E7F9FC /* PlickersAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		76CA66521BFBCD3900E7F9FC /* PlickersAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76CA66621BFBCD3900E7F9FC /* Build configuration list for PBXNativeTarget "PlickersAppUITests" */;
+			buildPhases = (
+				76CA664F1BFBCD3900E7F9FC /* Sources */,
+				76CA66501BFBCD3900E7F9FC /* Frameworks */,
+				76CA66511BFBCD3900E7F9FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				76CA66551BFBCD3900E7F9FC /* PBXTargetDependency */,
+			);
+			name = PlickersAppUITests;
+			productName = PlickersAppUITests;
+			productReference = 76CA66531BFBCD3900E7F9FC /* PlickersAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		76CA66271BFBCD3900E7F9FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = none;
+				TargetAttributes = {
+					76CA662E1BFBCD3900E7F9FC = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = PY2F85P8PP;
+					};
+					76CA66471BFBCD3900E7F9FC = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 76CA662E1BFBCD3900E7F9FC;
+					};
+					76CA66521BFBCD3900E7F9FC = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = 76CA662E1BFBCD3900E7F9FC;
+					};
+				};
+			};
+			buildConfigurationList = 76CA662A1BFBCD3900E7F9FC /* Build configuration list for PBXProject "PlickersApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 76CA66261BFBCD3900E7F9FC;
+			productRefGroup = 76CA66301BFBCD3900E7F9FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				76CA662E1BFBCD3900E7F9FC /* PlickersApp */,
+				76CA66471BFBCD3900E7F9FC /* PlickersAppTests */,
+				76CA66521BFBCD3900E7F9FC /* PlickersAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		76CA662D1BFBCD3900E7F9FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76CA66421BFBCD3900E7F9FC /* LaunchScreen.storyboard in Resources */,
+				76CA663F1BFBCD3900E7F9FC /* Assets.xcassets in Resources */,
+				76CA663D1BFBCD3900E7F9FC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76CA66461BFBCD3900E7F9FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76CA66511BFBCD3900E7F9FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1F469DAB1F2C7D5571FD4E12 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7DF2C512BA937FF983A46CA4 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlickersApp/Pods-PlickersApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B2D57A59CBDF832A07D6F45C /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PlickersApp/Pods-PlickersApp-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		76CA662B1BFBCD3900E7F9FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76CA663A1BFBCD3900E7F9FC /* ViewController.m in Sources */,
+				7656A3881BFC0369001A40A3 /* ChoicesView.m in Sources */,
+				765E67F51BFC28AB00E91458 /* ResizeImageView.m in Sources */,
+				76CA66371BFBCD3900E7F9FC /* AppDelegate.m in Sources */,
+				76CA66341BFBCD3900E7F9FC /* main.m in Sources */,
+				7605BD371BFDA97D0027C97A /* CardView.m in Sources */,
+				7651683B1BFBD8E20011C909 /* SelectViewController.m in Sources */,
+				76CA66671BFBCDB900E7F9FC /* PlickersAPI.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76CA66441BFBCD3900E7F9FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76CA664D1BFBCD3900E7F9FC /* PlickersAppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		76CA664F1BFBCD3900E7F9FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76CA66581BFBCD3900E7F9FC /* PlickersAppUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		76CA664A1BFBCD3900E7F9FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76CA662E1BFBCD3900E7F9FC /* PlickersApp */;
+			targetProxy = 76CA66491BFBCD3900E7F9FC /* PBXContainerItemProxy */;
+		};
+		76CA66551BFBCD3900E7F9FC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 76CA662E1BFBCD3900E7F9FC /* PlickersApp */;
+			targetProxy = 76CA66541BFBCD3900E7F9FC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		76CA663B1BFBCD3900E7F9FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76CA663C1BFBCD3900E7F9FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		76CA66401BFBCD3900E7F9FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				76CA66411BFBCD3900E7F9FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		76CA665A1BFBCD3900E7F9FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		76CA665B1BFBCD3900E7F9FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76CA665D1BFBCD3900E7F9FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D36194BB490D121163B25A48 /* Pods-PlickersApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = PlickersApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = none.PlickersApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		76CA665E1BFBCD3900E7F9FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D81824C6854E39E9C6DE1DA7 /* Pods-PlickersApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = PlickersApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = none.PlickersApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		76CA66601BFBCD3900E7F9FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PlickersAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = none.PlickersAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlickersApp.app/PlickersApp";
+			};
+			name = Debug;
+		};
+		76CA66611BFBCD3900E7F9FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PlickersAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = none.PlickersAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PlickersApp.app/PlickersApp";
+			};
+			name = Release;
+		};
+		76CA66631BFBCD3900E7F9FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PlickersAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = none.PlickersAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PlickersApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		76CA66641BFBCD3900E7F9FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PlickersAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = none.PlickersAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PlickersApp;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		76CA662A1BFBCD3900E7F9FC /* Build configuration list for PBXProject "PlickersApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76CA665A1BFBCD3900E7F9FC /* Debug */,
+				76CA665B1BFBCD3900E7F9FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76CA665C1BFBCD3900E7F9FC /* Build configuration list for PBXNativeTarget "PlickersApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76CA665D1BFBCD3900E7F9FC /* Debug */,
+				76CA665E1BFBCD3900E7F9FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76CA665F1BFBCD3900E7F9FC /* Build configuration list for PBXNativeTarget "PlickersAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76CA66601BFBCD3900E7F9FC /* Debug */,
+				76CA66611BFBCD3900E7F9FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76CA66621BFBCD3900E7F9FC /* Build configuration list for PBXNativeTarget "PlickersAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76CA66631BFBCD3900E7F9FC /* Debug */,
+				76CA66641BFBCD3900E7F9FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 76CA66271BFBCD3900E7F9FC /* Project object */;
+}
